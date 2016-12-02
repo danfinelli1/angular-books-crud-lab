@@ -1,0 +1,19 @@
+img{
+  width: 250px;
+  height: 250px;
+}
+.pokemons-table{
+  margin-left: 6.5%;
+}
+
+.pokeBlock{
+  text-align: center;
+  width: 25%;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 6px;
+  margin: 2px
+}
+.container{
+  width: 100%;
+}

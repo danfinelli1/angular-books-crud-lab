@@ -1,0 +1,49 @@
+
+  <form class="form-horizontal" ng-submit="pokemonCtrl.createPoke()">
+    <fieldset>
+
+      <!-- Form Name -->
+      <legend>Add New Pokemon</legend>
+
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label">Pokemon Name</label>
+        <div class="col-md-4">
+        <input id="name" ng-model="pokemonCtrl.newPoke.name" type="text" class="form-control input-md">
+        </div>
+      </div>
+
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label">Pokedex Number</label>
+        <div class="col-md-4">
+        <input ng-model="pokemonCtrl.newPoke.pokedex" type="text" class="form-control input-md">
+        </div>
+      </div>
+
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label">Evolves From</label>
+        <div class="col-md-4">
+        <input ng-model="pokemonCtrl.newPoke.evolves_from" type="text" class="form-control input-md">
+        </div>
+      </div>
+
+      <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label">Image Url</label>
+        <div class="col-md-4">
+        <input ng-model="pokemonCtrl.newPoke.image" type="text" class="form-control input-md">
+        </div>
+      </div>
+
+
+      <!-- Button -->
+      <div class="form-group">
+        <label class="col-md-4 control-label">Save Pokemon</label>
+        <div class="col-md-4">
+          <button class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </fieldset>
+  </form>

@@ -1,0 +1,8 @@
+<input type="text" class="form-control" ng-model="searchText" placeholder="Search Pokemans">
+<hr>
+<div class="col-md-9">
+<div class = 'pokemons-table' ng-repeat='poke in pokemonCtrl.pokemon | orderBy: "name" | filter: searchText'  >
+  <img ng-src="{{poke.image}}" alt="Description" />
+  <div class="pokeBlock" >Name: {{poke.name}}</div>
+</div>
+</div>
